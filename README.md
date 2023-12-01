@@ -38,19 +38,19 @@ await loadTest(loadTestConfig);
 ```
 
 ## Configuration
-apiBase: The base URL of the target API.
+**apiBase**: The base URL of the target API.
 
-path: The endpoint path to be tested.
+**path**: The endpoint path to be tested.
 
-method: HTTP method for the API requests (GET, POST, PUT, PATCH, DELETE).
+**method**: HTTP method for the API requests (GET, POST, PUT, PATCH, DELETE).
 
-totalReqs: Total number of API requests to be made during the load test.
+**totalReqs**: Total number of API requests to be made during the load test.
 
-rampUpTime: Time (in seconds) to gradually increase the load on the API.
+**rampUpTime**: Time (in seconds) to gradually increase the load on the API.
 
-headers: Optional headers to include in the API requests.
+**headers**: Optional headers to include in the API requests.
 
-concurrentReqs: Number of concurrent requests to be executed simultaneously.
+**concurrentReqs**: Number of concurrent requests to be executed simultaneously.
 
 ## Example
 For a more detailed example, refer to the sample usage in the code comments or check the provided example.ts file.
