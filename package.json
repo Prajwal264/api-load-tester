@@ -1,0 +1,20 @@
+{
+  "name": "api-load-tester",
+  "version": "1.0.0",
+  "description": "a simple load testing util",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node tests"
+  },
+  "keywords": [
+    "api-load-test"
+  ],
+  "author": "PrajwalP264",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.202",
+    "lodash": "^4.17.21",
+    "radash": "^11.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
