@@ -1,5 +1,5 @@
 import { parallel } from "radash";
-import https from 'https'
+const https = require('https');
 
 interface IRequestOptions {
   hostname: string;

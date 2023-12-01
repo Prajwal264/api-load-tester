@@ -1,10 +1,15 @@
 {
-  "name": "api-load-tester",
-  "version": "1.0.0",
+  "name": "api-load-test",
+  "version": "1.0.4",
   "description": "a simple load testing util",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node tests"
+    "test": "ts-node tests",
+    "build": "tsc",
+    "publish": "npm run build && cp package.json dist/package.json && cd dist && npm publish"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "api-load-test"
@@ -13,6 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/lodash": "^4.14.202",
+    "api-load-test": "^1.0.2",
     "lodash": "^4.17.21",
     "radash": "^11.0.0",
     "ts-node": "^10.9.1"
