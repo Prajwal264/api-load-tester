@@ -20,7 +20,7 @@ npm install
 
 ## Usage
 ```ts
-import { loadTest, IApiLoadTestConfig } from "your-load-test-library";
+import { loadTest, IApiLoadTestConfig } from "api-load-tester";
 
 // Define the load test configuration
 const loadTestConfig: IApiLoadTestConfig = {
