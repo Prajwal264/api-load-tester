@@ -1,6 +1,6 @@
 {
   "name": "api-load-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a simple load testing util",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,12 @@
     "publish": "npm run build && cp package.json dist/package.json && cd dist && npm publish"
   },
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "homepage": "https://github.com/Prajwal264/api-load-tester",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prajwal264/api-load-tester"
   },
   "keywords": [
     "api-load-test"
