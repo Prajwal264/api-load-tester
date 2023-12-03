@@ -8,9 +8,6 @@
     "build": "tsc",
     "publish": "npm run build && cp package.json dist/package.json && cd dist && npm publish"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "homepage": "https://github.com/Prajwal264/api-load-tester",
   "repository": {
     "type": "git",
