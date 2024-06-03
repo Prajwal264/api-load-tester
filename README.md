@@ -15,7 +15,7 @@ This library provides a straightforward and efficient way to perform load testin
 ## Installation
 
 ```bash
-npm install
+npm install api-load-test
 ```
 
 ## Usage
